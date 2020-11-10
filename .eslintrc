@@ -27,5 +27,6 @@
     "brace-style": ["error"],
 
     "@typescript-eslint/no-non-null-assertion": "off" // currently disabled, hap-nodejs has some bad typing (like getCharacteristic) for this to be enabled
-  }
+  },
+  "plugins": ["@typescript-eslint"]
 }
